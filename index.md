@@ -1,4 +1,4 @@
-### about | [projects](https://abradaric.me/projects)
+### about   |   [projects](https://abradaric.me/projects)
 
 ```markdown
 coming soon

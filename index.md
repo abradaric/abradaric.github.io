@@ -1,4 +1,4 @@
-## Welcome ##[about](https://abradaric.me/about)
+## [about](https://abradaric.me/about)
 
 ```markdown
 coming soon

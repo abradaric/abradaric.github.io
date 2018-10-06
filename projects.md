@@ -1,5 +1,5 @@
-## [about](https://abradaric.me) projects
+### [about](https://abradaric.me) | projects
 
 ```markdown
-coming soon
+nothing to see here
 ```

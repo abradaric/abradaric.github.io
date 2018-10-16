@@ -1,4 +1,4 @@
-### [about](https://abradaric.me)   |   [projects](https://abradaric.me/projects) | [R1D1](https://abradaric.me/r1d1)
+### [about](https://abradaric.me)   |   [projects](https://abradaric.me/projects) | [R1D1](https://abradaric.me/r1d1)   |   Intro && shopping list
 * * *
 ![Branching](https://i.imgur.com/7kfFT6e.png)
 

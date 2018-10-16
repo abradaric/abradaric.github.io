@@ -1,3 +1,3 @@
-### about   |   [projects](https://abradaric.me/projects)
+### about me   |   [projects](https://abradaric.me/projects)
 * * *
 ![Branching](https://i.imgur.com/pGACfja.png)

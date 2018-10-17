@@ -26,7 +26,7 @@ Connect keyboard to USB, monitor to HDMI, and power to.. power. Login with usern
 ```
 sudo raspi-config
 ```
-Here is some more [info](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) about it. As I said, I won't write about what is already written about, properly, a lot. First, enable SSH. Enable camera, expand filesystem, changer user password, do whatever you want.
+Here is some more [info](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) about it. As I said, I won't write about what is already written about, properly, a lot. First, enable SSH. Enable camera, expand filesystem, change user password, do whatever you want.
 
 Edit networks config file. Type:
 ```

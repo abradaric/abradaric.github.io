@@ -1,12 +1,14 @@
 ### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects) | [R1D1](https://abradaric.me/r1d1)   |   raspberry pi essentials
 * * *
-There are soo many good tutorials about installing Raspbian so I won't bother rewriting stuff in every single detail. Official _"easy way"_ is using [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md). If you want that, just follow directions. In my humble opinion [this method](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) is not so hard that it should be labeled _"for advanced users only"_.
+There are soo many good tutorials about installing Raspbian (Rapberry Pi opearating system) so I won't bother rewriting stuff in every single detail. Official _"easy way"_ is using [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md). If you want that, just follow directions. In my humble opinion [this method](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) is not so hard that it should be labeled _"for advanced users only"_.
 
-Basically what you do is, you download a tool called [Etcher](https://etcher.io/). Then you download a [raspbian image](https://www.raspberrypi.org/downloads/raspbian/). I recommend the lite version, we won't need anything from full version with desktop.
+Basically what you do is, you download a tool called [Etcher](https://etcher.io/). Then you download a [raspbian image](https://www.raspberrypi.org/downloads/raspbian/). I recommend the _lite_ version, we won't need anything from full version with desktop.
 Burn the downloaded image on the sd card using Etcher. The tool is so simple, you can't mess it up even if you try. If you can read all this and understand it, it means you understand English. You will understand Etcher too.
 
-Generally, we will connect to Raspberry using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md). There it mentions putting empty _ssh_ file in _boot_ partition, for headless config, which means you don't ever have to connect it to monitor, keyboard... But it doesn't mention configuring *wpa_supplicant*. Anyhow, make wpa_supplicant.conf file in _boot_ directory too, like the _ssh_ file. Inside, add:
+Generally, we will connect to Raspberry Pi using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md). There you will read about headless config. It mentions putting empty _ssh_ file in _boot_ partition for headless config, which means you don't ever have to connect it to monitor, keyboard... But it doesn't mention configuring *wpa_supplicant* (file containing network information). Anyhow, make wpa_supplicant.conf file in _boot_ directory too, like the _ssh_ file. Inside, add:
 ```
+interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
 network={
     ssid="name of network"
     psk="password"
@@ -18,7 +20,7 @@ ssh pi@its_ip_address
 ```
 Read [here](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) about finding out Pi's IP address. _Nmap_ is very simple to use.
 
-In case you didn't bother with adding _ssh_ and *wpa_supplicant.conf* files to the _boot_ partition, that's ok. It just means that you'll have to _at least once_ connect some cables to the Pi. If that's what you want to do, not a big deal..
+In case you didn't bother with adding _ssh_ and *wpa_supplicant.conf* files to the _boot_ partition, that's ok. It just means that you'll have to _at least once_ connect some cables to the Pi. If that's what you want to do, not a big deal.. Also, some people report problems with that approach. If _ssh_ doesn't work for you, do it all manually.
 
 Connect keyboard to USB, monitor to HDMI, and power to.. power. Login with username _pi_, password _raspberry_. Type:
 ```

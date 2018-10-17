@@ -20,9 +20,18 @@ Read [here](https://www.raspberrypi.org/documentation/remote-access/ip-address.m
 
 In case you didn't bother with adding _ssh_ and *wpa_supplicant.conf* files to the _boot_ partition, that's ok. It just means that you'll have to _at least once_ connect some cables to the Pi. If that's what you want to do, not a big deal..
 
-Connect keyboard to USB, monitor to HDMI, and power to.. power. Login with username _pi_, password _raspberry_. Type _sudo raspi-config_. Here is some more [info](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) about it. As I said, I won't write about what is already written about, properly, a lot. First, enable SSH. Enable camera, expand filesystem, changer user password, do whatever you want. Edit networks config file. Type:
+Connect keyboard to USB, monitor to HDMI, and power to.. power. Login with username _pi_, password _raspberry_. Type:
+```
+sudo raspi-config
+```
+Here is some more [info](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) about it. As I said, I won't write about what is already written about, properly, a lot. First, enable SSH. Enable camera, expand filesystem, changer user password, do whatever you want.
+
+Edit networks config file. Type:
 ```
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
-Add same network info like above. Now power it off, with _sudo systemctl poweroff_. NO, you don't just pull the power cable out! When the yellow light stops flashing, then pull the power cable out. Disconnect HDMI and USB (keyboard).
-Power it back on, ssh into it. Run *raspi-config* again, this time do some other things.
+Add same network info like above. Now power it off, with
+```
+sudo systemctl poweroff
+```
+NO, you don't just pull the power cable out! First type that, and when the yellow light stops flashing, pull the power cable out. Disconnect HDMI and USB (keyboard). Power it back on by connecting power cable again, and ssh into it.

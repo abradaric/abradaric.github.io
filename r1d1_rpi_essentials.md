@@ -5,6 +5,10 @@ There are soo many good tutorials about installing Raspbian (Rapberry Pi operati
 Basically what you do is, you download a tool called [Etcher](https://etcher.io/). Then you download a [raspbian image](https://www.raspberrypi.org/downloads/raspbian/). I recommend the _lite_ version since we won't need anything from full version with desktop.
 Burn the downloaded image on the sd card using Etcher. The tool is so simple, you can't mess it up even if you try. If you can read all this and understand it, it means you understand English. You will understand Etcher too.
 
+I mean, how hard can it be?
+
+![Branching](https://etcher.io/static/screenshot.gif)
+
 Generally, we will connect to Raspberry Pi using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md). On that link, you will read about headless config, among other useful things. It mentions putting empty _ssh_ file in _boot_ partition for headless config, which means you don't have to connect it to monitor and keyboard, not even once... But it doesn't mention configuring *wpa_supplicant* (file containing network information). Anyhow, if you want to go that way, make wpa_supplicant.conf file in _boot_ directory too, like the _ssh_ file. Inside, add:
 ```
 interface=DIR=/var/run/wpa_supplicant GROUP=netdev

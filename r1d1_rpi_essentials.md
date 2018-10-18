@@ -1,4 +1,4 @@
-### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects) | [R1D1](https://abradaric.me/r1d1)   |   raspberry pi essentials
+### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R1D1](./r1d1.html)   |   raspberry pi essentials
 * * *
 There are soo many good tutorials about installing Raspbian (Rapberry Pi operating system) so I won't bother rewriting stuff in every single detail. Official _"easy way"_ is using [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md). If you want that, just follow directions. In my humble opinion [this method](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) is not so hard that it should be labeled _"for advanced users only"_.
 

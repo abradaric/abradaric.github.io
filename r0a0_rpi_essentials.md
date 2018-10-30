@@ -23,7 +23,7 @@ Edit networks config file. Type:
 ```
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
-Add same network info like stated [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md). Now power it off.
+Add some network info like stated [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md). Now power it off.
 ```
 sudo systemctl poweroff
 ```

@@ -7,7 +7,7 @@ Burn the downloaded image on the sd card using Etcher. The tool is so simple, yo
 
 I mean, how hard can it be?
 
-![Branching](https://etcher.io/static/screenshot.gif)
+![Branching](https://upload.wikimedia.org/wikipedia/commons/8/88/Etcher-gif.gif)
 
 Generally, we will connect to Raspberry Pi using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md). On that link, you will read about headless config, among other useful things. It mentions putting empty _ssh_ file in _boot_ partition for headless config, which means you don't have to connect it to monitor and keyboard, not even once... But it doesn't mention configuring *wpa_supplicant* (file containing network information). Anyhow, if you want to go that way, make wpa_supplicant.conf file in _boot_ directory too, like the _ssh_ file. Inside, add:
 ```

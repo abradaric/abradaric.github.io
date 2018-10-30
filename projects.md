@@ -1,6 +1,4 @@
 ### [about me](https://abradaric.me)   |   projects
 * * *
-[R1D1](./r1d1.html) -
-goal and reality depicted on image below
+[R1D1](./r1d1.html) - R2D2's ancestor
 
-![Branching](https://i.imgur.com/ScOMKnT.png)

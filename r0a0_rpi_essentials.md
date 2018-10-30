@@ -9,20 +9,7 @@ I mean, how hard can it be?
 
 ![Branching](https://upload.wikimedia.org/wikipedia/commons/8/88/Etcher-gif.gif)
 
-Generally, we will connect to Raspberry Pi using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md). On that link, you will read about headless config, among other useful things. It mentions putting empty _ssh_ file in _boot_ partition for headless config, which means you don't have to connect it to monitor and keyboard, not even once... But it doesn't mention configuring *wpa_supplicant* (file containing network information). Anyhow, if you want to go that way, make wpa_supplicant.conf file in _boot_ directory too, like the _ssh_ file. Inside, add:
-```
-interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-update_config=1
-network={
-    ssid="name of network"
-    psk="password"
-    }
-```
-You can add multiple networks, your home network, your _smartphone-as-a-router_ network.. Anyway, your Pi will automatically connect to available network and then you can simply SSH into it, like this:
-```
-ssh pi@its_ip_address
-```
-Read [here](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) about finding out Pi's IP address. _Nmap_ is very simple to use.
+Generally, we will connect to Raspberry Pi using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md). Read [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) about setting up headless config, which means you don't have to connect it to monitor and keyboard, not even once.
 
 In case you didn't bother with adding _ssh_ and *wpa_supplicant.conf* files to the _boot_ partition, that's ok. It just means that you'll have to _at least once_ connect some cables to the Pi. If that's what you want to do, not a big deal.. Also, some people report problems with headless approach. If _ssh_ somehow doesn't work for you, do it all manually.
 
@@ -36,7 +23,7 @@ Edit networks config file. Type:
 ```
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
-Add same network info like above. Now power it off, with
+Add same network info like stated [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md).
 ```
 sudo systemctl poweroff
 ```

@@ -5,7 +5,7 @@
 ```python
 me = {
     "name": "Antonio",
-    "contact": "antonio.bradaric@protonmail.com"
+    "contact": "antonio.bradaric@protonmail.com",
     "edu": "CS Master's"
     }
 tools = ['python', 'javascript', 'C', 'java']

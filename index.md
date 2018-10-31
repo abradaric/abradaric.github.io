@@ -20,7 +20,7 @@ tech_things = [
     "computer vision",
     "openCV",
     "linux",
-    "bash"
+    "bash",
 ]
 
 while True:

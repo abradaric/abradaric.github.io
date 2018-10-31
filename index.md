@@ -10,7 +10,7 @@ me = {
     "edu": "CS Master's",
 }
 
-tech_stuff= [
+tech_stuff = [
     "python",
     "django",
     "javascript",

@@ -8,7 +8,7 @@ me = {
     "name": "Antonio",
     "contact": "antonio.bradaric [at] protonmail [.] com",
     "edu" : "CS Master's",
-    }
+}
 
 tech_things = [
     "python",

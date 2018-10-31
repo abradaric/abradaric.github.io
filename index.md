@@ -7,8 +7,22 @@
 me = {
     "name": "Antonio",
     "contact": "antonio.bradaric [at] protonmail [.] com",
+    edu = "CS Master's"
     }
-edu = "CS Master's"
-tools = ['python', 'javascript', 'C', 'java']
-preferred_tools = tools[:2]
+
+buzzwords = [
+    "python",
+    "django",
+    "javascript",
+    "react",
+    "fullstack",
+    "robotics",
+    "computer vision",
+    "openCV",
+    "linux",
+    "bash"
+]
+
+while True:
+    buzzwords.append(next_thing_to_learn)
 ```

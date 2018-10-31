@@ -4,6 +4,8 @@
 
 ![Branching](https://media.giphy.com/media/2zdnjNRZuZrx0Rp032/giphy.gif)
 
+* * *
+
 Django&React CRUD app
 
 ![Branching](https://i.imgur.com/0Wj2wwf.jpg)

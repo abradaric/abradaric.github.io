@@ -10,7 +10,7 @@ me = {
     "edu" : "CS Master's",
     }
 
-buzzwords = [
+tech_things = [
     "python",
     "django",
     "javascript",
@@ -25,6 +25,6 @@ buzzwords = [
 
 while True:
     new_knowledge = learn()
-    buzzwords.append(new_knowledge)
+    tech_things.append(new_knowledge)
 
 ```

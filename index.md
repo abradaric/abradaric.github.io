@@ -7,7 +7,7 @@
 me = {
     "name": "Antonio",
     "contact": "antonio.bradaric [at] protonmail [.] com",
-    edu = "CS Master's"
+    "edu" : "CS Master's",
     }
 
 buzzwords = [
@@ -24,5 +24,7 @@ buzzwords = [
 ]
 
 while True:
-    buzzwords.append(next_thing_to_learn)
+    new_knowledge = learn()
+    buzzwords.append(new_knowledge)
+
 ```

@@ -6,3 +6,5 @@
 
 Django&React CRUD app
 
+![Branching](https://i.imgur.com/0Wj2wwf.jpg)
+

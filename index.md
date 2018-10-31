@@ -7,8 +7,8 @@
 me = {
     "name": "Antonio",
     "contact": "antonio.bradaric [at] protonmail [.] com",
-    "edu": "CS Master's"
     }
+edu = "CS Master's"
 tools = ['python', 'javascript', 'C', 'java']
 preferred_tools = tools[:2]
 ```

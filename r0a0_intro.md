@@ -1,5 +1,6 @@
-### [about me](./index.html)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   intro and shopping list
 * * *
+### [about me](./index.html)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   intro and shopping list
+<!--* * *-->
 ![Branching](https://i.imgur.com/7kfFT6e.png)
 
 If Anakin was able to build himself an android with what he had on Tatooine, then you can build an android too. You have Ebay and Aliexpress! And you're not a slave like he was, which means you have more free time!

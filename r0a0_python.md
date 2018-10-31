@@ -1,5 +1,6 @@
-### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |  pyenv & pipenv
 * * *
+### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |  pyenv & pipenv
+<!--* * *-->
 
 Raspbian comes with Python 3.5. I really, really like f-strings, introduced in Python 3.6. Python 3.7 is generally faster too. Enter [pyenv](https://github.com/pyenv/pyenv). [Automatic installer](https://github.com/pyenv/pyenv-installer) is recommended. Basically, pyenv lets you change python version per user or per project.
 

@@ -1,5 +1,6 @@
-### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   raspberry pi essentials
 * * *
+### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   raspberry pi essentials
+<!--* * *-->
 There are soo many good tutorials about installing Raspbian (Rapberry Pi operating system) so I won't bother rewriting stuff in every single detail. Official _"easy way"_ is using [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md). If you want that, just follow directions on the link. In my humble opinion [this method](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) is not so hard that it should be labeled _"for advanced users only"_.
 
 You can use [dd](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md) or GUI tool called [Etcher](https://etcher.io/). Download a [raspbian image](https://www.raspberrypi.org/downloads/raspbian/). I recommend the _lite_ version since we won't need anything from full version with desktop.

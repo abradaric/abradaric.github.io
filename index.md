@@ -12,15 +12,15 @@ me = {
 
 tech_stuff = [
     "python",
-    "django",
     "javascript",
+    "django",
     "react",
     "fullstack",
+    "linux",
+    "bash",
     "robotics",
     "computer vision",
     "openCV",
-    "linux",
-    "bash",
 ]
 
 hobbies = ["books", "fitness", "video games"]

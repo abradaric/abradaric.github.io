@@ -1,5 +1,5 @@
 * * *
-### [about me](./index.html)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   intro and shopping list
+### [about me](https://abradaric.me/)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   intro and shopping list
 <!--* * *-->
 ![Branching](https://i.imgur.com/7kfFT6e.png)
 

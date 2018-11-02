@@ -1,5 +1,5 @@
 * * *
-### [about me](./index.html)   |   [projects](./projects.html) | [django&react CRUD app](./djreact.html)   |  why?
+### [about me](https://abradaric.me/)   |   [projects](./projects.html) | [django&react CRUD app](./djreact.html)   |  why?
 
 Some time ago I had a project of making CRUD app with tech stack of choice. I stumbled upon [this classic](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) and decided (accepted?) to suffer in silence and get on with it. I picked my stack based on [this](https://www.youtube.com/watch?v=wz-PtEJEaqY) tried and trusted method. Just kidding, no chickens were harmed during making of this app.
 

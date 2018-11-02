@@ -23,8 +23,12 @@ tech_stuff = [
     "bash",
 ]
 
+hobbies = ["books", "fitness", "video games"]
+
 while True:
     new_knowledge = learn()
     tech_stuff.append(new_knowledge)
+    for activity in hobbies:
+        relax(activity)
 
 ```

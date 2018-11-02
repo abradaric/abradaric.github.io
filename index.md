@@ -18,9 +18,9 @@ tech_stuff = [
     "fullstack",
     "linux",
     "bash",
-    "robotics",
-    "computer vision",
     "openCV",
+    "computer vision",
+    "robotics",
 ]
 
 hobbies = ["books", "fitness", "video games"]

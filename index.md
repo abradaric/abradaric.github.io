@@ -23,7 +23,7 @@ tech_stuff = [
     "robotics",
 ]
 
-hobbies = ["books", "fitness", "video games"]
+hobbies = ["books", "fitness", "video games", "arduino & RPi"]
 
 while True:
     new_knowledge = learn()

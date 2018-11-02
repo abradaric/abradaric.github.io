@@ -1,6 +1,6 @@
 * * *
 ### [about me](./index.html)   |   [projects](./projects.html) | django&react CRUD app
 
-* why?
+* [why?](./djreact_why.html)
 * backend
 * frontend

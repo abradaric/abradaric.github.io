@@ -26,7 +26,7 @@ tech_stuff = [
 hobbies = ["books", "fitness", "video games", "arduino & RPi"]
 
 while True:
-    always_keep_improving(tech_stuff)
+    keep_improving(tech_stuff)
     new_knowledge = learn_new_technology()
     tech_stuff.append(new_knowledge)
     for activity in hobbies:

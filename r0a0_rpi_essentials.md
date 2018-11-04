@@ -18,9 +18,9 @@ Connect keyboard to USB, monitor to HDMI, and power to.. power. Login with usern
 ```
 sudo raspi-config
 ```
-Here is some more [info](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) about raspi-config tool. As I said, I won't write about what is already written about, properly, a lot. First, enable SSH. Enable camera, expand filesystem, change user password, do whatever you want.
+Here is some more [info](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) about raspi-config tool. As I said, I won't write about what is already written about, properly, a lot. First, enable SSH. Enable camera, expand filesystem, change user password, do whatever you want. If you configured headless approach, do all these steps anyway (instead of SSH and network info since it's redundant obviously).
 
-Edit networks config file. Type:
+To edit networks config file, type:
 ```
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```

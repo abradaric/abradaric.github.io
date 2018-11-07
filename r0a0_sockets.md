@@ -5,4 +5,4 @@
 
 Both protocols have found their use in this project. If we are remotely controlling robot (_WASD_ style), TCP would be problematic because of delay/lag induced by potential connection problems. Suppose we are driving and network hogs down for a second, and in the meantime we decide to change direction input. All those previously dropped packets would get resent, with consequence of robot traversing unwanted path. Here, UDP is good because only the latest input is relevant. But, if we want to do some computer vision image processing, it would be nice to have correct data. Therefore, we transport JPG images with TCP protocol.
 
-Check out remote control [here](./r0a0_sockets_rc.html) and visual feed here, [h264](./404.html) and [jpeg](./404.html).
+Check out remote control [here](./r0a0_sockets_rc.html) and visual feed here, [h264](./r0a0_sockets_h264.html) and [jpeg](./r0a0_sockets_jpeg.html).

@@ -45,7 +45,9 @@ GEAR = 0
 DIRECTIONS = ("E", "NE", "N", "NW", "W", "SW", "S", "SE")
 ```
 
-Speed is in [0,100], which is [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of PWM signal. Directions are _east_, _north-east etc_. For example, _north_ is straight ahead, _east_ is rotation clockwise, _north-east_ is slightly turning to the right. Note, this is for model build 0.1, which doesn't have servo motors. It turns by running engines in opposite directions or different speeds.
+Speed is in [0,100], which is [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of PWM signal. Directions are _east_, _north-east etc_. For example, _north_ is straight ahead, _east_ is rotation clockwise, _north-east_ is slightly turning to the right. Note, this is for model build 0.1, which doesn't have servo motors. It turns by running engines in opposite directions and/or different speeds.
+
+![Branching](https://upload.wikimedia.org/wikipedia/commons/0/02/PWM_duty_cycle_with_label.gif)
 
 ```python
 def shift_up():

@@ -1,6 +1,8 @@
 * * *
 ### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   remote control (RPi side)
 
+If you just want the code, [here](./remote_control_rc.py) you go.
+
 First, let's import necessary modules.
 
 ```python

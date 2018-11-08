@@ -1,6 +1,8 @@
 * * *
 ### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   remote control (RPi side)
 
+First, let's import necessary modules.
+
 ```python
 import socket
 import RPi.GPIO as GPIO

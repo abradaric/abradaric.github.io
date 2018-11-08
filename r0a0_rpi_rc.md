@@ -10,7 +10,7 @@ import socket
 import RPi.GPIO as GPIO
 ```
 
-In addition to socket module from standard library, we need something to work with GPIO pins. [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) will do just fine, in spite of "_..Note that the current release does not support SPI, I2C, hardware PWM or serial functionality on the RPi yet._". For some advanced usage [pigpio](http://abyz.me.uk/rpi/pigpio/index.html) is recommended, with its [python interface](http://abyz.me.uk/rpi/pigpio/python.html).
+In addition to socket module from standard library, we need something to work with GPIO pins. [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) will do just fine, despite of "_..Note that the current release does not support SPI, I2C, hardware PWM or serial functionality on the RPi yet._". For some advanced usage [pigpio](http://abyz.me.uk/rpi/pigpio/index.html) is recommended, with its [python interface](http://abyz.me.uk/rpi/pigpio/python.html).
 
 First things first, we declare the pins we're using. BTW, check out the wiring [here](./r0a0_construction_01.html).
 

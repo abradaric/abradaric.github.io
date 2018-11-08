@@ -182,4 +182,4 @@ def start(rasp_addr, comm_port):
     GPIO.cleanup()
 ```
 
-That's it for the RPi side of _WASD_ free-driving mode.
+We initiate UDP socket, with address and port number forwarded from some other function (this is not _main_ function). We decode incoming data (bytes) to string, and process it. That's it for the RPi side of _WASD_ free-driving mode.

@@ -1,14 +1,12 @@
 * * *
-### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   remote control (_WASD_ style + _GPIO_ stuff)
-
-#### RPi side
+### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   remote control (RPi side)
 
 ```python
 import socket
 import RPi.GPIO as GPIO
 ```
 
-In addition to socket module from standard library, we need something to work with GPIO pins. [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) will do just fine, although "_..Note that the current release does not support SPI, I2C, hardware PWM or serial functionality on the RPi yet._". For some advanced usage [pigpio](http://abyz.me.uk/rpi/pigpio/index.html) is recommended, with its python [interface](http://abyz.me.uk/rpi/pigpio/python.html).
+In addition to socket module from standard library, we need something to work with GPIO pins. [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) will do just fine, in spite of "_..Note that the current release does not support SPI, I2C, hardware PWM or serial functionality on the RPi yet._". For some advanced usage [pigpio](http://abyz.me.uk/rpi/pigpio/index.html) is recommended, with its python [interface](http://abyz.me.uk/rpi/pigpio/python.html).
 
 First things first, we declare the pins we're using.
 
@@ -29,9 +27,9 @@ You can use either _BOARD_ layout or _BCM_ layout.
 
 ![Branching](https://i.imgur.com/NZe70aK.png)
 
-Basically, _BOARD_ pin numbering is by order, _BCM_ is by some chip spec, which you have to look up. Pins can be declared either IN (input) or OUT (output). They operate on 3.3V, so be careful when connecting various sensors which operate on 5V. In that case one can use either [logic level converter](https://ebay.to/2Plm8aR) or construct circuits with resitors (on breadboard). On the other hand, if pin is declared as output, and something on the other side operates at 5V, it should all work fine, because 3.3V is high enough to be interpreted as HIGH signal. Basically, [0V,2.5V] = LOW, [2.5V,5V] = HIGH.
+Basically, _BOARD_ pin numbering is by order on board itself, _BCM_ is by some chip spec, which you have to look up. Pins can be declared either IN (input) or OUT (output). They operate on 3.3V, so be careful when connecting various sensors which operate on 5V. In that case one can use either [logic level converter](https://ebay.to/2Plm8aR) (_upgrades, additional sensors_) or construct circuits with resistors (on breadboard). On the other hand, if pin is declared as output, and something on the other side operates at 5V, it should all work fine, because 3.3V is high enough to be interpreted as HIGH signal. Basically, [0V,2.5V] = LOW, [2.5V,5V] = HIGH.
 
-Pins 36 and 38 control the direction of left motor, pins 37 and 40 of right motor. Pins 35 and 33 control the speed of left and right motor (software [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation), which is not an issue for DC motors).
+Pins 36 and 38 control the direction of left motor, pins 37 and 40 direction of right motor. Pins 35 and 33 control the speed of left and right motor (software [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation), which is not an issue for DC motors).
 
 ```python
 NEUTRAL = 0
@@ -47,7 +45,7 @@ GEAR = 0
 DIRECTIONS = ("E", "NE", "N", "NW", "W", "SW", "S", "SE")
 ```
 
-Speed is in [0,100], which is duty cycle of PWM signal. Directions are _east_, _north-east etc_. For example, _north_ is straight ahead, _east_ is rotation clockwise, _north-east_ is slightly turning to the right. Note, this is for model build 0.1, which doesn't have servo motors. It turns by running engines in opposite directions or different speeds.
+Speed is in [0,100], which is [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of PWM signal. Directions are _east_, _north-east etc_. For example, _north_ is straight ahead, _east_ is rotation clockwise, _north-east_ is slightly turning to the right. Note, this is for model build 0.1, which doesn't have servo motors. It turns by running engines in opposite directions or different speeds.
 
 ```python
 def shift_up():

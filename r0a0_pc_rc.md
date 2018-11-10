@@ -30,8 +30,9 @@ We put the relevant keys (keycodes) in a tuple for membership checking on each k
 
 ```python
 def on_press(key):
-    if KeyCode.from_char(key) in COMBINATION:
-        PRESSED.add(KeyCode.from_char(key))
+    key_code = KeyCode.from_char(key)
+    if key_code in COMBINATION:
+        PRESSED.add(key_code)
     send_comms()
 
 

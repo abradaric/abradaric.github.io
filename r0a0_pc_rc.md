@@ -26,7 +26,7 @@ COMM_SOCK = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 PRESSED = set()
 ```
 
-We put the relevant keys (keycodes) in a tuple for membership checking on each key press. We create UDP socket and construct a [set](https://docs.python.org/3.7/tutorial/datastructures.html?highlight=set#sets) for putting pressed keys in. _A set is an unordered collection with no duplicate elements._ So if you're holding _W_, only one element will be put in the set. If you tried this with a list, you would get into trouble.
+We put the relevant keys (keycodes) in a tuple for membership checking on each key press. We create UDP socket and construct a [set](https://docs.python.org/3.7/tutorial/datastructures.html?highlight=set#sets) for putting pressed keys in. _A set is an unordered collection with no duplicate elements._ So if you're holding _W_, only one element will be put in the set. If you tried this with a list, you would get in trouble.
 
 ```python
 def on_press(key):
@@ -50,7 +50,7 @@ def on_release(key):
 KEYBOARD_LISTENER = Listener(on_press=on_press, on_release=on_release)
 ```
 
-When a key is pressed, it is checked if it's relevant, if it is it gets added to _PRESSED_, and state gets sent. On release first _try-except_ is for some special problems (Ctrl, Alt etc). Also, it checks for "_Q_", which quits the program. We construct a listener (it's a thread), but we don't start it yet.
+When a key is pressed, it is checked if it's relevant, if it is it gets added to _PRESSED_ and state gets sent. On key release, first there is _try-except_ for some special problems (Ctrl, Alt etc). Also, it checks for "_Q_", which quits the program. We construct a listener (it's a thread), but we don't start it yet.
 
 ```python
 def neutral():
@@ -115,4 +115,4 @@ def start(rasp_adr, motor_port):
     print("Command stream shut down")
 ```
 
-Finally, the functions that gets called from the main module. It connects to the RPi, starts the threads and waits for the listener to stop. It stops when you press "Q", and then it closes the socket. That's it for the _WASD_ mode PC side!
+Finally, the function that gets called from the main module. It connects to the RPi, starts the threads and waits for the listener to stop. It stops when you press "Q", and then it closes the socket. That's it for the _WASD_ mode PC side!

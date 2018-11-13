@@ -1,7 +1,7 @@
 * * *
 ### [about me](https://abradaric.me)   |   [projects](./projects.html) | [R0A0](./r0a0.html)   |   vision (RPi side)
 
-If you just want the code for this module, [here](./rpi_vision.py) you go. BTW, [picamera docs](https://picamera.readthedocs.io/en/latest/index.html) is awesome resource! This is 99% from there.
+If you just want the code for this module, [here](./rpi_vision.py) you go. BTW, [picamera docs](https://picamera.readthedocs.io/en/latest/index.html) are awesome resource! This is 99% from there.
 
 ```python
 import io

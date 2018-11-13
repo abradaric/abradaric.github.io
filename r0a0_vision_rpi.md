@@ -41,7 +41,7 @@ First, let's connect to the server where computer vision operations will be exec
             sleep(2)
 ```
 
-We'll make a file-like interface out of connection to simplify writing data. Some standard settings, check all options [here](https://picamera.readthedocs.io/en/latest/api_camera.html). You may not need _vflip_ and/or _hflip_, depending how you orientate camera on the robot. Sensor _ports_ exposure mode is to automatically remove motion blur on turning, very useful. You may experiment with resolution, depending on your server computing power. Sleep is because sensors needs a while to adjust to light.
+We'll make a file-like interface out of connection to simplify writing data. Some standard settings, check all options [here](https://picamera.readthedocs.io/en/latest/api_camera.html). You may not need _vflip_ and/or _hflip_, depending how you orientate camera on the robot. Sensor's _sports_  exposure mode is to automatically remove motion blur on turning, very useful. You may experiment with resolution, depending on your server computing power. Sleep is because sensors needs a while to adjust to light.
 
 ```python
             stream = io.BytesIO()

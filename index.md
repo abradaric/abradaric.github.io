@@ -18,6 +18,7 @@ tech_stuff = [
     "fullstack",
     "linux",
     "bash",
+    "git",
     "openCV",
     "computer vision",
     "robotics",

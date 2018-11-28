@@ -6,13 +6,14 @@
 ```python
 me = {
     "name": "Antonio",
-    "contact": "antonio.bradaric [at] protonmail [.] com",
+    "contact": "antonio.bradaric [at] protonmail [dot] com",
     "edu": "CS Master's",
 }
 
 tech_stuff = [
     "python",
     "javascript",
+    "C",
     "django",
     "react",
     "fullstack",
@@ -32,5 +33,4 @@ while True:
     tech_stuff.append(new_knowledge)
     for activity in hobbies:
         relax(activity)
-
 ```

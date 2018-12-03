@@ -15,10 +15,10 @@ tech_stuff = [
     "javascript",
     "C",
     "bash",
+    "git",
     "linux",
     "django",
     "react",
-    "git",
     "openCV",
     "computer vision",
     "robotics",
@@ -28,7 +28,7 @@ hobbies = ["books", "fitness", "video games", "arduino & RPi"]
 
 while True:
     keep_improving(tech_stuff)
-    new_knowledge = learn_new_technology()
+    new_knowledge = learn_new_stuff()
     tech_stuff.append(new_knowledge)
     for activity in hobbies:
         relax(activity)

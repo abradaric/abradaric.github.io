@@ -24,7 +24,7 @@ tech_stuff = [
     "robotics",
 ]
 
-hobbies = ["books", "fitness", "video games", "arduino & RPi"]
+hobbies = ["books", "fitness", "arduino & RPi"]
 
 while True:
     keep_improving(tech_stuff)

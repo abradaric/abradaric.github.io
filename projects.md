@@ -9,6 +9,6 @@
 
 * * *
 
-[django&react CRUD app](./djreact.html) - [link](https://abradaric-django-react-demo.netlify.com/)
+[django&react CRUD app](./djreact.html) - [demo link](https://abradaric-django-react-demo.netlify.com/)
 
 ![Branching](https://i.imgur.com/Cegsuoh.gif)

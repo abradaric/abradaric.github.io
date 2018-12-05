@@ -10,3 +10,5 @@
 * * *
 
 [django&react CRUD app](./djreact.html)
+
+![Branching](https://i.imgur.com/Cegsuoh.gif)

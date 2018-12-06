@@ -26,6 +26,9 @@ tech_stuff = [
 
 hobbies = ["books", "fitness", "arduino & RPi"]
 
+fav_tech_book = "Code: The Hidden Language of Computer Hardware and Software"
+fav_fiction_book = "Dune"
+
 while True:
     keep_improving(tech_stuff)
     new_knowledge = learn_new_stuff()

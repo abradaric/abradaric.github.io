@@ -28,6 +28,8 @@ hobbies = ["books", "fitness", "arduino & RPi"]
 
 fav_tech_book = "Code: The Hidden Language of Computer Hardware and Software"
 fav_fiction_book = "Dune"
+fav_tv_show = "The Wire"
+fav_movie = "LOTR trilogy"
 
 while "pigs" != "fly":
     keep_improving(tech_stuff)

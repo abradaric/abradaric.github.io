@@ -13,7 +13,8 @@ me = {
 tech_stuff = [
     "python",
     "javascript",
-    "C",
+    "c",
+    "java",
     "bash",
     "git",
     "linux",

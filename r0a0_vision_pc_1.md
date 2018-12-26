@@ -38,7 +38,7 @@ else:
         return cv2.cvtColor(np.array(jpg_img), cv2.COLOR_RGB2BGR)
 ```
 
-[OpenCL](https://opencv.org/platforms/opencl.html) in openCV with Python is really simple with [transparent API](https://www.learnopencv.com/opencv-transparent-api/) thanks to awesome devs. CUDA is a bit more complicated. Since I have AMD hardware, I haven't explored it thoroughly.
+[OpenCL](https://opencv.org/platforms/opencl.html) in openCV with Python is really simple with [transparent API](https://www.learnopencv.com/opencv-transparent-api/) thanks to awesome devs. CUDA is a bit more complicated. Since I have AMD hardware, I haven't explored it.
 
 ```python
 def network_image_stream(pc_adr, vid_port):
@@ -131,50 +131,3 @@ Let's start with the module entry point aka its _main_ function. Reading incomin
 ```
 
 More about detecting and counting objects in another post. When we press _q_, program will destroy cv2 window and shut down incoming data stream.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

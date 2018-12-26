@@ -105,7 +105,7 @@ def cv_start(pc_adr, vid_port):
     read_qr = False
 ```
 
-Let's start with the module entry point aka its _main_ function. Reading incoming jpeg images will be run as threaded function. In python _multiprocessing_ module is used for real parallelism. Threads from _threading_ module are preemptive threads (good for I/O tasks) run concurrently (due to [GIL](https://wiki.python.org/moin/GlobalInterpreterLock). There are also coroutines (_asyncio_ module), but I digress. I've chosen green characters on black background for looping animation until the data arrives. Then we create the window and show the animation at least once. When the image arrives, we break out of the loop. Also, for now we won't detect anything. More about that in part two.
+Let's start with the module entry point aka its _main_ function. Reading incoming jpeg images will be run as threaded function. In python _multiprocessing_ module is used for real parallelism. Threads from _threading_ module are preemptive threads (good for I/O tasks), and they run concurrently (due to [GIL](https://wiki.python.org/moin/GlobalInterpreterLock). There are also coroutines (_asyncio_ module), but I digress. I've chosen green characters on black background for looping animation until the data arrives. Then we create the window and show the animation at least once. When the image arrives, we break out of the loop. Also, for now we won't detect anything. More about that in part two.
 
 ```python
     while True:

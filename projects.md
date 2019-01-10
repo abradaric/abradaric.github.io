@@ -1,7 +1,7 @@
 * * *
 ### [about me](https://abradaric.me)   |   projects
 
-[R0A0](./r0a0.html) - R2D2's distant ancestor
+R0A0 - R2D2's distant ancestor
 
 ![Branching](https://media.giphy.com/media/2zdnjNRZuZrx0Rp032/giphy.gif)
 
@@ -9,6 +9,6 @@
 
 * * *
 
-[django&react CRUD app](./djreact.html) - demo link [here](https://abradaric-django-react-demo.netlify.com/)
+django&react CRUD app - demo link [here](https://abradaric-django-react-demo.netlify.com/)
 
 ![Branching](https://i.imgur.com/Cegsuoh.gif)

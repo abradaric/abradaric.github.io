@@ -1,7 +1,7 @@
 * * *
 ### [about me](https://abradaric.me)   |   projects
 
-R0A0 - R2D2's distant ancestor
+[R0A0](https://github.com/abradaric/r0a0) - R2D2's distant ancestor
 
 ![Branching](https://media.giphy.com/media/2zdnjNRZuZrx0Rp032/giphy.gif)
 

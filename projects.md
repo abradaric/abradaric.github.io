@@ -11,4 +11,6 @@
 
 django&react CRUD app - demo link [here](https://abradaric-django-react-demo.netlify.com/)
 
-![Branching](https://i.imgur.com/Cegsuoh.gif)
+<!--![Branching](https://i.imgur.com/Cegsuoh.gif)-->
+
+<img src="https://i.imgur.com/Cegsuoh.gif" alt="drawing" width="480"/>

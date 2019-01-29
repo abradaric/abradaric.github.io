@@ -9,7 +9,7 @@
 
 * * *
 
-django&react CRUD app - demo link [here](https://abradaric-django-react-demo.netlify.com/)
+django&react CRUD app - demo link [here](https://abradaric-django-react-demo.netlify.com/) (_not mobile friendly_)
 
 <!--![Branching](https://i.imgur.com/Cegsuoh.gif)-->
 <!--<img src="https://i.imgur.com/Cegsuoh.gif" alt="drawing" width="480"/>-->

@@ -9,7 +9,11 @@
 
 * * *
 
-django&react CRUD app - demo link [here](https://abradaric-django-react-demo.netlify.com/) (_if opening on mobile, view in landscape orientation_)
+django&react CRUD app - (_if opening on mobile, view in landscape orientation_)
+
+[code](https://github.com/abradaric/django_react_crud)
+
+[demo](https://abradaric-django-react-demo.netlify.com/)
 
 <!--![Branching](https://i.imgur.com/Cegsuoh.gif)-->
 <!--<img src="https://i.imgur.com/Cegsuoh.gif" alt="drawing" width="480"/>-->

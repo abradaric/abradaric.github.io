@@ -13,7 +13,7 @@ R0A0 - R2D2's distant ancestor
 
 django&react CRUD app - (_if opening on mobile, view in landscape orientation_)
 
-| [demo](https://abradaric-django-react-demo.netlify.com/) |
+| [code](https://github.com/abradaric/django-react-post-notes<Paste>) | [demo](https://abradaric-django-react-demo.netlify.com/) |
 
 <!--[code](https://github.com/abradaric/django_react_crud)-->
 

@@ -1,5 +1,5 @@
 * * *
-### about me   |   [projects](./projects.html)
+### about me   |   [projects](./projects)
 <!--* * *-->
 <!--![Branching](https://i.imgur.com/0Wj2wwf.jpg)-->
 

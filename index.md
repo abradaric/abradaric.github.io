@@ -1,7 +1,5 @@
 * * *
 ### about me   |   [projects](./projects)
-<!--* * *-->
-<!--![Branching](https://i.imgur.com/0Wj2wwf.jpg)-->
 
 ```python
 me = {
@@ -14,7 +12,6 @@ tech_stuff = [
     "python",
     "javascript",
     "c",
-    "java",
     "bash",
     "git",
     "linux",

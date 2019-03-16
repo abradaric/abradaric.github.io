@@ -4,7 +4,7 @@
 ```python
 me = {
     "name": "Antonio",
-    "contact": "antonio.bradaric [at] pm [dot] me",
+    "contact": "hello@abradaric.me",
     "edu": "CS Master's (Nov '18)",
 }
 

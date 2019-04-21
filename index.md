@@ -15,12 +15,12 @@ tech_stuff = [
     "c",
     "bash",
     "git",
+    "docker",
     "linux",
     "django",
     "react",
-    "openCV",
     "computer vision",
-    "robotics",
+    "openCV",
 ]
 
 hobbies = ["books", "fitness", "arduino & RPi"]

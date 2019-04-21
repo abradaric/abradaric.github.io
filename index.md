@@ -6,6 +6,7 @@ me = {
     "name": "Antonio",
     "contact": "hello [at] abradaric [dot] me",
     "edu": "CS Master's (Nov '18)",
+    "location": "Munich, Germany",
 }
 
 tech_stuff = [

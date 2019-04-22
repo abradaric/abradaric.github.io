@@ -3,8 +3,6 @@
 
 R0A0 - R2D2's distant ancestor
 
-| [code](https://github.com/abradaric/r0a0) |
-
 ![Branching](https://media.giphy.com/media/2zdnjNRZuZrx0Rp032/giphy.gif)
 
 ![Branching](https://media.giphy.com/media/csH44qW7iEgPsNEqt2/giphy.gif)
@@ -13,7 +11,7 @@ R0A0 - R2D2's distant ancestor
 
 django&react CRUD app - (_if opening on mobile, view in landscape orientation_)
 
-| [code](https://github.com/abradaric/django-react-post-notes) | [demo](https://abradaric-django-react-demo.netlify.com/) |
+| [demo](https://abradaric-django-react-demo.netlify.com/) |
 
 <!--[code](https://github.com/abradaric/django_react_crud)-->
 

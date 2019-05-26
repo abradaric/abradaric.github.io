@@ -4,7 +4,7 @@
 ```python
 me = {
     "name": "Antonio",
-    "contact": "hello [at] abradaric [dot] me",
+    "contact": "antonio [at] bradaric [dot] me",
     "edu": "CS Master's (Nov '18)",
     "location": "Munich, Germany",
 }
@@ -12,10 +12,12 @@ me = {
 tech_stuff = [
     "python",
     "javascript",
+    "html+css",
     "c",
     "bash",
     "git",
     "docker",
+    "rest",
     "linux",
     "django",
     "react",

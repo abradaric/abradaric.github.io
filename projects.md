@@ -9,7 +9,7 @@ R0A0 - R2D2's distant ancestor
 
 * * *
 
-django&react CRUD app - (_if opening on mobile, view in landscape orientation_)
+django&react CRUD app
 
 | [demo] | (v2 WIP)
 

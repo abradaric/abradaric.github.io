@@ -12,15 +12,15 @@ me = {
 tech_stuff = [
     "python",
     "javascript",
-    "html+css",
     "c",
+    "scss",
+    "django",
+    "react",
     "bash",
     "git",
     "docker",
     "rest",
     "linux",
-    "django",
-    "react",
     "computer vision",
     "openCV",
 ]

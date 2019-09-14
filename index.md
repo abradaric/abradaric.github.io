@@ -25,7 +25,7 @@ tech_stuff = [
     "openCV",
 ]
 
-hobbies = ["books", "fitness", "arduino & RPi"]
+hobbies = ["books", "Arduino & RPi hacks", "rewatching The Office"]
 
 fav_tech_book = "Code: The Hidden Language of Computer Hardware and Software"
 fav_fiction_book = "Dune"

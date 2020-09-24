@@ -13,16 +13,18 @@ tech_stuff = [
     "python",
     "javascript",
     "c",
-    "scss",
+    "bash",
     "django",
     "react",
-    "bash",
     "git",
     "docker",
-    "rest",
     "linux",
     "computer vision",
     "openCV",
+    "html5",
+    "css3",
+    "scss",
+    "rest",
 ]
 
 hobbies = ["books", "Arduino & RPi hacks", "rewatching The Office"]

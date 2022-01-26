@@ -21,7 +21,7 @@ tech_stuff = [
     "docker",
     "linux",
     "postgres",
-    [*aws_stuff],
+    *aws_stuff,
 ]
 
 hobbies = ["books", "Arduino & RPi hacks", "rewatching The Office"]

@@ -12,13 +12,16 @@ me = {
 tech_stuff = [
     "python",
     "javascript",
+    "typescript",
     "django",
+    "flask",
     "react",
     "bash",
     "git",
     "docker",
     "linux",
-    "aws",
+    "postgres",
+    [*aws_stuff],
 ]
 
 hobbies = ["books", "Arduino & RPi hacks", "rewatching The Office"]

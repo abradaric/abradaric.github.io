@@ -3,7 +3,7 @@
 
 ```python
 me = {
-    "name": "Antonioo",
+    "name": "Antonio",
     "contact": "antonio [at] bradaric [dot] me",
     "edu": "CS Master's (2018)",
     "location": "Munich, Germany",

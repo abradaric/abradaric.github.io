@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-title: <a href="https://abradaric.me"><img src="https://i.imgur.com/EVLE5mf.jpeg" height="128px" alt="Hi"/></a>
+title: <a href="https://abradaric.me"><img src="https://i.imgur.com/EVLE5mf.jpeg" height="256px" style="border-radius: 128px" alt="Hi"/></a>
 description: I like strawberries and chocolate, but not together
 #google_analytics: UA-127612098-1

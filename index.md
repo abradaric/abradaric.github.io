@@ -1,4 +1,4 @@
-<title>test</title>
+<title>Antonio Bradaric</title>
 * * *
 ### about me   |   [projects](./projects)
 

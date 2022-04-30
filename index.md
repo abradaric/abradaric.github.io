@@ -37,4 +37,8 @@ while "pigs" != "fly":
     for activity in hobbies:
         relax(activity)
 ```
-<script>console.log('test')</script>
+<style>
+    .avatar {
+      border-radius: 50%;
+    }
+</style>

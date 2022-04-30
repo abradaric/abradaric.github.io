@@ -1,3 +1,4 @@
+<title>test</title>
 * * *
 ### about me   |   [projects](./projects)
 

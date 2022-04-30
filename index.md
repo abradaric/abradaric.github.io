@@ -38,7 +38,7 @@ while "pigs" != "fly":
         relax(activity)
 ```
 <style>
-    .avatar {
+    #avatar {
       border-radius: 50%;
     }
 </style>

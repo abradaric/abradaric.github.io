@@ -6,7 +6,7 @@
 
 <div id="main">
   <p>wtf</p>
-  <div id="content"></div>
+  <div id="box"></div>
 </div>
 
 <style>
@@ -23,6 +23,6 @@
       const domParser = new DOMParser();
       const dom = domParser.parseFromString(data, "text/html");
       const table = dom.getElementsByTagName("pre")[0];
-      document.getElementById("content").innerText = table.innerText;
+      document.getElementById("box").innerText = table.innerText;
     });
 </script>

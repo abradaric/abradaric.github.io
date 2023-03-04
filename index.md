@@ -30,12 +30,13 @@ tech_stuff = [
 hobbies = [
     "books",
     "Arduino & RPi hacks",
-    "rewatching The Office",
+    "rewatching The Office and Lord of The Rings",
     "guitar",
     "freediving",
 ]
 
-fav_tech_book = "Code: The Hidden Language of Computer Hardware and Software"
+fav_tech_book = """Code: The Hidden Language
+of Computer Hardware and Software"""
 fav_fiction_book = "Dune"
 
 while "pigs" != "fly":

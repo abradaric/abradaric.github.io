@@ -6,6 +6,12 @@
 
 <pre id="box"></pre>
 
+<style> 
+  #box {
+    font-size: '12px';
+  }
+</style>
+
 <script>
   fetch("https://wttr.in")
     .then((res) => res.text())

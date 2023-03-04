@@ -13,6 +13,6 @@
       const domParser = new DOMParser();
       const dom = domParser.parseFromString(data, "text/html");
       const table = dom.getElementsByTagName("pre")[0];
-      document.getElementById("content").innerText = table.innerText;
+      document.getElementById("content").innerHTML = table.innerHTML;
     });
 </script>

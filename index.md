@@ -1,4 +1,5 @@
-<title>Antonio Bradaric</title>
+<link rel="stylesheet" href="style.css">
+<title>Antonio</title>
 * * *
 ### about me   |   [projects](./projects)
 
@@ -37,8 +38,3 @@ while "pigs" != "fly":
     for activity in hobbies:
         relax(activity)
 ```
-<style>
-    #avatar {
-      border-radius: 50%;
-    }
-</style>

@@ -4,16 +4,7 @@
 * * *
 ### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects)   |   weather
 
-
-  <div id="box"></div>
-
-
-<style>
-  #box {
-   color: 'red';
-   background: 'blue';
-  }
-</style>
+<pre id="box"></pre>
 
 <script>
   fetch("https://wttr.in")

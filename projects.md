@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <title>Antonio Bradaric</title>
 * * *
 ### [about me](https://abradaric.me)   |   projects
@@ -19,8 +20,3 @@ django&react CRUD app
 <!--![Branching](https://i.imgur.com/Cegsuoh.gif)-->
 <!--<img src="https://i.imgur.com/Cegsuoh.gif" alt="drawing" width="480"/>-->
 <img src="https://i.imgur.com/abcyWwD.gif" alt="drawing" width="480"/>
-<style>
-    #avatar {
-      border-radius: 50%;
-    }
-</style>

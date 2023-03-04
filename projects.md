@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css">
-<title>Antonio Bradaric</title>
+<script src="script.js"></script>
+<title>Antonio</title>
 * * *
 ### [about me](https://abradaric.me)   |   projects
 

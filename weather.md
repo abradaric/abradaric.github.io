@@ -4,13 +4,12 @@
 * * *
 ### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects)   |   weather
 
-<div id="main">
-  <p>wtf</p>
+
   <div id="box"></div>
-</div>
+
 
 <style>
-  #content {
+  #box {
    color: 'red';
    background: 'blue';
   }

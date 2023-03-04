@@ -9,7 +9,7 @@
 <style>
   #content {
    display: 'block';
-   background: 'red';
+   background: 'blue';
    box-sizing: 'content-box'
    float: 'none'
    line-height: 'normal'

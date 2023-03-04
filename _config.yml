@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: <a href="https://abradaric.me"><img id="avatar" src="https://i.imgur.com/EVLE5mf.jpeg" height="256px" alt="Hi"/></a>
-description: <b>howdy</b>, stranger! 👋 <script>console.log('never mind me, testing')</script>
+description: <script>(function() {const x = new Date(); switch(x.getMinutes()%2){case 0: return 'howdy' case 1: return 'hello'})()</script>
 #google_analytics: UA-127612098-1

@@ -5,11 +5,12 @@
 ### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects)   |   weather
 
 <pre id="box"></pre>
+<br/>
+<small><3 @wttr.in API</small>
 
 <style> 
   #box {
-    font-size: 12px;
-    margin-right: -1rem;
+    font-size: 11px;
   }
 </style>
 

@@ -9,6 +9,7 @@
 <style> 
   #box {
     font-size: 12px;
+    margin-right: -1rem;
   }
 </style>
 

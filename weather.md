@@ -7,6 +7,17 @@
 
 <div id="content"></div>
 
+<style>
+  #content {
+   display: 'block';
+   box-sizing: 'content-box'
+   float: 'none'
+   line-height: 'normal'
+   position: 'static'
+   z-index: 'auto'
+  }
+</style>
+
 <script>
   fetch("https://wttr.in")
     .then((res) => res.text())

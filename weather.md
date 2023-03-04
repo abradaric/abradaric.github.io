@@ -1,15 +1,15 @@
 <link rel="stylesheet" href="style.css">
-
 <script src="script.js"></script>
 <title>Antonio</title>
 * * *
 ### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects)   |   weather
-
+<div id="main">
 <div id="content"></div>
-
+</div>
 <style>
   #content {
    display: 'block';
+   background: 'red';
    box-sizing: 'content-box'
    float: 'none'
    line-height: 'normal'

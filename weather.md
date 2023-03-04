@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+
 <script src="script.js"></script>
 <title>Antonio</title>
 * * *
@@ -13,6 +14,6 @@
       const domParser = new DOMParser();
       const dom = domParser.parseFromString(data, "text/html");
       const table = dom.getElementsByTagName("pre")[0];
-      document.getElementById("content").innerHTML = table.innerHTML;
+      document.getElementById("content").innerText = table.innerText;
     });
 </script>

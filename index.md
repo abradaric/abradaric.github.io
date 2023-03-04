@@ -26,7 +26,13 @@ tech_stuff = [
     *aws_stuff,
 ]
 
-hobbies = ["books", "Arduino & RPi hacks", "rewatching The Office", "strats&teles&les_pauls", "freediving"]
+hobbies = [
+    "books",
+    "Arduino & RPi hacks",
+    "rewatching The Office",
+    "guitar",
+    "freediving",
+]
 
 fav_tech_book = "Code: The Hidden Language of Computer Hardware and Software"
 fav_fiction_book = "Dune"

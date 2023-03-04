@@ -13,11 +13,11 @@ me = {
 
 tech_stuff = [
     "python",
-    "javascript",
-    "typescript",
+    "javascript(typescript)",
     "django",
     "flask",
     "react",
+    "svelte",
     "bash",
     "git",
     "docker",
@@ -26,7 +26,7 @@ tech_stuff = [
     *aws_stuff,
 ]
 
-hobbies = ["books", "Arduino & RPi hacks", "rewatching The Office"]
+hobbies = ["books", "Arduino & RPi hacks", "rewatching The Office", "strats&teles&les_pauls", "freediving"]
 
 fav_tech_book = "Code: The Hidden Language of Computer Hardware and Software"
 fav_fiction_book = "Dune"

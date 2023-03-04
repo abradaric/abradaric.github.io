@@ -14,6 +14,7 @@ me = {
 tech_stuff = [
     "python",
     "javascript(typescript)",
+    "sql",
     "django",
     "flask",
     "react",

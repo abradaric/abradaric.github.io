@@ -3,18 +3,16 @@
 <title>Antonio</title>
 * * *
 ### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects)   |   weather
+
 <div id="main">
-<div id="content"></div>
+  <p>wtf</p>
+  <div id="content"></div>
 </div>
+
 <style>
   #content {
-   display: 'block';
+   color: 'red';
    background: 'blue';
-   box-sizing: 'content-box'
-   float: 'none'
-   line-height: 'normal'
-   position: 'static'
-   z-index: 'auto'
   }
 </style>
 

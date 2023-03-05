@@ -4,7 +4,7 @@
 * * *
 ### [about me](https://abradaric.me)   |   [projects](https://abradaric.me/projects)   |   weather
 
-<pre id="box"></pre>
+<pre id="box">Loading...</pre>
 <br/>
 <small><3 @wttr.in API</small>
 

@@ -2,7 +2,7 @@
 <script src="script.js"></script>
 <title>Antonio</title>
 * * *
-### [about me](https://abradaric.me)   |   projects
+### [about me](https://abradaric.me)   |   projects   |   [weather](./weather)
 
 R0A0 - R2D2's distant ancestor
 

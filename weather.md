@@ -8,12 +8,6 @@
 <br/>
 <small><3 @wttr.in API</small>
 
-<style> 
-  #box {
-    font-size: 11px;
-  }
-</style>
-
 <script>
   fetch("https://wttr.in")
     .then((res) => res.text())

@@ -2,7 +2,7 @@
 <script src="script.js"></script>
 <title>Antonio</title>
 * * *
-### about me   |   [projects](./projects)
+### about me   |   [projects](./projects)   |   [weather](./weather)
 
 ```python
 me = {

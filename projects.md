@@ -4,8 +4,10 @@
 * * *
 ### [about me](https://abradaric.me)   |   projects   |   [weather](./weather)
 
-<i>*thick layer of dust*</i>
+<i>*very thick layer of dust*</i>
+
 not touched for ~5 years
+
 cool stuff coming [soon](https://www.youtube.com/watch?v=X7HmltUWXgs)
 
 * * *

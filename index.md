@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
+<script defer data-domain="abradaric.me" src="https://plausible.io/js/script.js"></script>
 <title>Antonio</title>
 * * *
 ### about me   |   [projects](./projects)   |   [weather](./weather)

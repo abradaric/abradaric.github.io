@@ -8,7 +8,7 @@
 
 not touched for ~5 years
 
-cool stuff coming [soon](https://www.youtube.com/watch?v=X7HmltUWXgs)
+cool stuff coming [soon](https://www.youtube.com/watch?v=X7HmltUWXgs){:target="_blank"}
 
 * * *
 

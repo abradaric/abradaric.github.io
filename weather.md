@@ -7,7 +7,7 @@
 <pre id="box">Loading...</pre>
 <br/>
 <small><3 @wttr.in API</small>
-<div style="height: 0px">U2FsdGVkX19QVgz3ZcqA1PnGva1Pig10CybthmTYoHS8lWQ78BJpeyG1LM9UxFQFBMOrWeJ0UoN2T37gVawAeA== #(aes256cbc)</div>
+<div style="display: none">U2FsdGVkX19QVgz3ZcqA1PnGva1Pig10CybthmTYoHS8lWQ78BJpeyG1LM9UxFQFBMOrWeJ0UoN2T37gVawAeA== #(aes256cbc)</div>
 
 <script>
   fetch("https://wttr.in")

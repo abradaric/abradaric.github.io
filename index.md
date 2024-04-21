@@ -27,6 +27,7 @@ tech_stuff = [
     "linux",
     "postgres",
     *aws_stuff,
+    *AI_stuff, # LLMs, vector dbs
 ]
 
 hobbies = [

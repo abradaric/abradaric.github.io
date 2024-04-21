@@ -35,7 +35,7 @@ hobbies = [
     "rewatching The Office and Lord of The Rings",
     "guitar",
     "freediving",
-    "flight sim (VR,MSFS&DCS,F18&F22)", # watched Top Gun few times too many
+    "flight sim (VR:MSFS&DCS;F14,F16,F18)", # watched Top Gun few times too many
 ]
 
 fav_tech_book = """Code: The Hidden Language

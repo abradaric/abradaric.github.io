@@ -3,7 +3,7 @@
 
 <title>Antonio</title>
 * * *
-### about me   |   [projects](./projects)   |   [weather](./weather)
+### about me   |   [projects](./projects)
 
 ```python
 me = {

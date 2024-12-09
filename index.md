@@ -50,4 +50,5 @@ while "pigs" != "fly":
     for activity in hobbies:
         relax(activity)
 ```
-<div style="display: none">U2FsdGVkX19QVgz3ZcqA1PnGva1Pig10CybthmTYoHS8lWQ78BJpeyG1LM9UxFQFBMOrWeJ0UoN2T37gVawAeA== #(aes256cbc)</div>
+<div style="display: none">U2FsdGVkX19QVgz3ZcqA1PnGva1Pig10CybthmTYoHS8lWQ78BJpeyG1LM9UxFQFBMOrWeJ0UoN2T37gVawAeA== # echo "foo" | openssl enc -aes-256-cbc -a -d -pass pass:"bar"</div>
+<div style="display: none">U2FsdGVkX19Lt/ggsTDJhy2D72J4uzpkPLIzb4RVHoYs6dQ7yokrm0cYNG1O/8F9DbyGWrTnoD/Ay8eP1RI5ETmWXZnroOj5GuLWJD5hQRViz/Fkiixf1u6Kr/YQb70X% #echo "foo" | openssl enc -aes-256-cbc -salt -base64 -A -pbkdf2 -pass pass:"bar" -d</div>

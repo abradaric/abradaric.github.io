@@ -41,7 +41,10 @@ hobbies = [
 
 fav_tech_book = """Code: The Hidden Language
 of Computer Hardware and Software"""
-fav_fiction_book = "Dune"
+fav_fiction_books = [
+    "Dune",
+    "The Count of Monte Cristo",
+]
 fav_general_books = [
     "Sapiens: A Brief History of Humankind",
     "Thinking, Fast and Slow",

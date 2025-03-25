@@ -3,7 +3,6 @@
 
 <title>Antonio</title>
 * * *
-### about me
 
 ```python
 me = {

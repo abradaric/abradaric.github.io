@@ -5,6 +5,8 @@
 
 
 ```python
+import random
+
 me = {
     "name": "Antonio",
     "contact": "antonio [at] bradaric [dot] me",
@@ -26,13 +28,13 @@ tech_stuff = [
     "linux",
     "postgres",
     *aws_stuff,
-    *AI_stuff, # LLMs, vector embeddings etc.
+    *AI_stuff,
 ]
 
 hobbies = [
     "books",
     "Arduino & RPi hacks",
-    "rewatching The Office and Lord of The Rings",
+    f"rewatching {random.choice(['The Office', 'The Wire', 'LOTR (trilogy)']}",
     "guitar",
     "freediving",
     "flight sim (VR:MSFS&DCS;F14,F16,F18)", # watched Top Gun few times too many
@@ -40,10 +42,7 @@ hobbies = [
 
 fav_tech_book = """Code: The Hidden Language
 of Computer Hardware and Software"""
-fav_fiction_books = [
-    "Dune",
-    "The Count of Monte Cristo",
-]
+fav_fiction_book = "The Count of Monte Cristo"
 fav_general_books = [
     "Sapiens: A Brief History of Humankind",
     "Thinking, Fast and Slow",

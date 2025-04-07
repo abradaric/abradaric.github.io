@@ -2,7 +2,7 @@
 <script src="script.js"></script>
 
 <title>Antonio</title>
-* * *
+
 
 ```python
 me = {

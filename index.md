@@ -27,6 +27,7 @@ tech_stuff = [
     "docker",
     "linux",
     "postgres",
+    "kubernetes",
     *aws_stuff,
     *AI_stuff,
 ]

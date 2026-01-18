@@ -12,6 +12,7 @@ me = {
     "contact": "antonio [at] bradaric [dot] me",
     "edu": "CS Master's (2018)",
     "locations": "[Munich, Germany", "Dubrovnik, Croatia"],
+    "work": "building in stealth",
 }
 
 tech_stuff = [
@@ -20,6 +21,7 @@ tech_stuff = [
     "sql",
     "django",
     "flask",
+    "fastapi",
     "react",
     "svelte",
     "bash",
